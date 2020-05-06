@@ -1,0 +1,50 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Important notes:
+% This template needs to be compiled with XeLaTeX.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[letterpaper]{style} % Use US Letter paper, change to a4paper for A4 
+\usepackage{fontawesome}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{array}
+\usepackage{tikz}
+\usepackage{titlesec}
+\def\ci#1{\textcircled{\resizebox{.5em}{!}{#1}}}
+
+\titleformat*{\section}{\LARGE\bfseries}
+\titleformat*{\subsection}{\Large\bfseries}
+\titleformat*{\subsubsection}{\large\bfseries}
+\titleformat*{\paragraph}{\large\bfseries}
+\titleformat*{\subparagraph}{\large\bfseries}
+\usepackage{titlecaps}
+
+
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+%\lastupdated % Print the Last Updated text at the top right
+\namesection{{Jefferson}}{Ong}{
+\href{mailto:ongjk@appstate.edu}{\ci{\faEnvelope}} 
+{\fontsize{10}{10}\selectfont \href{mailto:ongjk@appstate.edu}{ongjk@appstate.edu}}}
+{
+\ci{\faPhone}  {\fontsize{10}{10}\selectfont 910-273-2383} 
+}
+{
+\href{https://www.linkedin.com/in/ongjk/}{\ci{\faLinkedin}}{\fontsize{10}{10}\selectfont \href{https://www.linkedin.com/in/ongjk/}{  in/ongjk/}}
+}
+{
+\href{https://github.com/ongjk}{\ci{\faChrome}} {\fontsize{10}{10}\selectfont \href{https://github.com/ongjk}{ongjk.github.io}}
+}
+
+
+
+\input{page1.tex}
+
+
+\end{document}
